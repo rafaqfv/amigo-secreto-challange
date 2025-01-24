@@ -20,6 +20,7 @@ function adicionarAmigo() {
     listaAmigos.appendChild(li);
 
     inputName.value = "";
+    if (resultado.firstChild) resultado.removeChild(resultado.firstChild);
 }
 
 function sortearAmigo() {
